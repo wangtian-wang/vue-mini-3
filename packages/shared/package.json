@@ -1,0 +1,16 @@
+{
+  "name": "@my/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/shared.cjs.js",
+  "module": "dist/shared.esm-bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buildOptions": {
+    "formats": ["cjs", "esm-bundler"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

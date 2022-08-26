@@ -1,0 +1,17 @@
+{
+  "name": "@my/reactivity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/reactivity.cjs.js",
+  "module": "dist/reactivity.esm-bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buildOptions": {
+    "name": "MyReactivity",
+    "formats": ["global", "cjs", "esm-bundler"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
